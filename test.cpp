@@ -3,14 +3,13 @@
 State getStartState();
 State getTargetState();
 
-int main(){
-
-	Map map;
-	State start=getStartState();
-	State target=getTargetState();
-
+int main(ing argc, char *argv[])
+{
+	string file_name(argv[1]);//todo add validation if file exists
+	Map map(file_name);
+	State start = getStartState();
+	State target = getTargetState();
 	Planner astar;
-	
 	astar.plan(start, target, map);
 }
 

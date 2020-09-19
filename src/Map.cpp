@@ -161,7 +161,6 @@ void Map::find_near_obs()
     {
         node_p = q.front();
         q.pop();
-
         //for(int i=node_p.x-1;i<=node_p.x+1;i++)数组越界
         //for(int j=node_p.y-1;j<=node_p.y+1;j++)
 		for(int i = node_p.x; i < node_p.x + 1; i++)

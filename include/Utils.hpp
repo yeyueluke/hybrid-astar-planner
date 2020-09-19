@@ -4,7 +4,7 @@
 #include "bits/stdc++.h"
 #include "opencv/cv.h"
 #include <opencv2/highgui/highgui.hpp>
-
+#include <opencv2/imgproc/imgproc.hpp> //划线等函数头文件
 using namespace std;
 using namespace cv;
 

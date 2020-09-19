@@ -177,7 +177,7 @@ void Map::find_near_obs()
                		q.push(node_c);
              	}
             }
-       }
+        }
 	}
     obs_dist_max = node_p.nearest_obstacle;
 }
